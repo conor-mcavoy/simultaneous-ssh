@@ -66,6 +66,7 @@ class ClientManager:
             client.close()
 
 help_str = 'command: command description.\n\n' \
++ 'add: add a host to the active hosts.\n' \
 + 'exec: execute a shell command on all active hosts.\n' \
 + 'group: groups hosts together into a named group. First argument is the ' \
 +  'group name, the rest are the hosts in that group.\n' \
@@ -74,6 +75,7 @@ help_str = 'command: command description.\n\n' \
 + 'hosts: prints all active hosts.\n' \
 + 'quit: closes all connections and quits.\n' \
 + 'recv: prints the stdout and stderr of all active hosts.\n' \
++ 'rm: remove a host from the active hosts.\n' \
 + 'switch: takes a list of hosts (or a group) and makes them active, then ' \
 +  'prints the active hosts. Also supports "all" as an argument.'
 
